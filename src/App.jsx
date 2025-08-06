@@ -8,6 +8,7 @@ function App() {
     <>
       <Ola/>
       <Tudo/>
+      <h1>qual seu nome</h1>
     </>
   )
 }
