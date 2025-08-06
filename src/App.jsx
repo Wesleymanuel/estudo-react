@@ -1,4 +1,5 @@
 import Ola from './Ola'
+import Tudo from './Tudo';
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Ola/>
+      <Tudo/>
     </>
   )
 }
