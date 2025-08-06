@@ -5,9 +5,9 @@ function App() {
 
   return (
     <>
-      <Ola></Ola>
+      <Ola/>
     </>
   )
 }
 
-export default App
+export default App;
