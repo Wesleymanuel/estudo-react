@@ -1,0 +1,19 @@
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/App.jsx b/src/App.jsx[m
+[1mindex 3bef6c7..a52fbd3 100644[m
+[1m--- a/src/App.jsx[m
+[1m+++ b/src/App.jsx[m
+[36m@@ -1,4 +1,5 @@[m
+ import Ola from './Ola'[m
+[32m+[m[32mimport Tudo from './Tudo';[m
+ import './App.css'[m
+ [m
+ function App() {[m
+[36m@@ -6,6 +7,7 @@[m [mfunction App() {[m
+   return ([m
+     <>[m
+       <Ola/>[m
+[32m+[m[32m      <Tudo/>[m
+     </>[m
+   )[m
+ }[m
