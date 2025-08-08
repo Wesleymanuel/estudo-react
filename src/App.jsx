@@ -1,8 +1,7 @@
-import If from "./If";
 import Tudo from "./Tudo";
 import './App.css';
 import Links from "./Links";
-import Neymar from "./Neymar";
+
 function App() {
 
   return (
@@ -10,6 +9,9 @@ function App() {
       <div className='conteiner'>
         <Tudo logo="wesley"/>
         <Links links={["ola","tudo"]}  />
+      </div>
+      <div className="h11">
+        <h1>to aprendendo ainda</h1>
       </div>
     </>
   )
