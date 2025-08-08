@@ -1,10 +1,16 @@
+import If from "./If";
 import Tudo from "./Tudo";
 import './App.css';
+import Links from "./Links";
+import Neymar from "./Neymar";
 function App() {
 
   return (
     <>
-      <Tudo logo={"cadastro escolar"}/>
+      <div className='conteiner'>
+        <Tudo logo="wesley"/>
+        <Links links={["ola","tudo"]}  />
+      </div>
     </>
   )
 }

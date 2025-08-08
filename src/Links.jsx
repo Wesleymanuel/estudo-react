@@ -1,8 +1,14 @@
-function Links(){
+function Links(props){
     return(
         <div>
-            <button>professores</button>
-            <button>alunos</button>
+            <ul>
+                {props.links.map ((link , index) =>{
+                    return (
+                        <li key={index} >{link}</li>
+                    )
+                    
+                })}
+            </ul>
         </div>    
     )
 }

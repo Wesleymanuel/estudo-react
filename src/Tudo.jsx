@@ -1,12 +1,7 @@
-import Links from './Links';
-import './Tudo.css';
-function Tudo({logo}) {
+function Tudo(props) {
 
     return(
-        <div className='conteiner'>
-            <h1>{logo}</h1>
-            <Links/>
-        </div>
+        <h1>{props.logo}</h1>
     )
 }
 export default Tudo;
