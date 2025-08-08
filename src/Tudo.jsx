@@ -1,8 +1,11 @@
-function Tudo() {
+import Links from './Links';
+import './Tudo.css';
+function Tudo({logo}) {
+
     return(
-        <div>
-            <h1>tudo bemmmm</h1>
-            <input type="text"  />
+        <div className='conteiner'>
+            <h1>{logo}</h1>
+            <Links/>
         </div>
     )
 }
