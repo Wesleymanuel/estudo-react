@@ -2,10 +2,10 @@ function Links(props) {
     
     return(
         <div>
-           <ul>
-                 {props.links.map((li,index) => {
+           <ul className="lista" >
+                 {props.links.map((li) => {
                         return (
-                            <li key={index}>{li}</li>
+                            <button>{li}</button>
                         ) 
                  })}
             </ul> 
