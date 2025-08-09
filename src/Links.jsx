@@ -1,15 +1,16 @@
-function Links(props){
+function Links(props) {
+    
     return(
         <div>
-            <ul>
-                {props.links.map ((link , index) =>{
-                    return (
-                        <li key={index} >{link}</li>
-                    )
-                    
-                })}
-            </ul>
-        </div>    
+           <ul>
+                 {props.links.map((li,index) => {
+                        return (
+                            <li key={index}>{li}</li>
+                        ) 
+                 })}
+            </ul> 
+        </div>
     )
 }
+
 export default Links;

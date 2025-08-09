@@ -1,17 +1,12 @@
-import If from "./If";
-import Tudo from "./Tudo";
+import Header from './Header';
 import './App.css';
-import Links from "./Links";
-import Neymar from "./Neymar";
+
 function App() {
 
   return (
-    <>
-      <div className='conteiner'>
-        <Tudo logo="wesley"/>
-        <Links links={["ola","tudo"]}  />
-      </div>
-    </>
+    <div className='conteiner'>
+      <Header/>
+    </div>
   )
 }
 
